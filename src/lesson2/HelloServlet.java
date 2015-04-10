@@ -18,5 +18,4 @@ public class HelloServlet extends HttpServlet {
 			throws ServletException, IOException {
 		res.getWriter().println("Hello World!");
 	}
-
 }
