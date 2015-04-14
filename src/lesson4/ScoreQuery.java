@@ -53,6 +53,9 @@ public class ScoreQuery extends HttpServlet {
 		}
 		resp.setContentType("text/html;charset=utf-8");
 		resp.getWriter().println("<html>");
+		resp.getWriter().println("<head>");
+		resp.getWriter().println("<meta charset=\"UTF-8\">");
+		resp.getWriter().println("</head>");
 		resp.getWriter().println("<title>数学成绩</title>");
 		resp.getWriter().println("<body>" + reMsg + "</body>");
 		resp.getWriter().println("</html>");
