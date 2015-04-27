@@ -1,0 +1,3 @@
+转移到pom.xml文件所在文件夹，顺序执行以下命令
+1、mvn clean compile
+2、mvn install 或者 mvn assembly:assembly
