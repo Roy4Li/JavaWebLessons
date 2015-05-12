@@ -16,7 +16,7 @@ public class ScoreQuery extends HttpServlet {
 	private static String user = "enjoy";
 	private static String pwd = "";
 	private static String sqlQuery = "select * from book where book_id=1";
-
+	
 	public int getMathScore(String name) {
 		int mathScore = -1;
 		try {
