@@ -1,3 +1,0 @@
-# JavaWebLessons
-Source of my course
-111111111111111111111111111111111111
